@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk
 
-ENV HUE_VERSION 3.11.0
+ENV HUE_VERSION 3.12.0
 
 RUN apt-get update \
   && apt-get install --no-install-recommends -y \
